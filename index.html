@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chương trình bài tập tổng hợp</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="container">
+    <header class="page-header">
+      <p class="eyebrow">BÀI TẬP LẬP TRÌNH</p>
+      <h1>Chương trình tổng hợp</h1>
+      <p class="subtitle">Chọn một chức năng, nhập dữ liệu và xem kết quả ngay trên trang web.</p>
+    </header>
+
+    <section class="panel">
+      <label for="functionSelect">Chọn chức năng</label>
+      <select id="functionSelect">
+        <option value="1">1. Tính diện tích tam giác</option>
+        <option value="2">2. Kiểm tra số chính phương</option>
+        <option value="3">3. Đếm số chính phương nhỏ hơn n</option>
+        <option value="4">4. Tính tổng ước của n</option>
+        <option value="5">5. Tính số ngày trong tháng</option>
+        <option value="6">6. Đổi chỗ hai số</option>
+        <option value="7">7. Tính UCLN và BCNN</option>
+      </select>
+
+      <form id="calculatorForm">
+        <div id="inputFields" class="input-grid"></div>
+        <button type="submit">Tính kết quả</button>
+      </form>
+
+      <div id="result" class="result" role="status" aria-live="polite">
+        <span class="result-label">KẾT QUẢ</span>
+        <p>Chọn chức năng và nhập dữ liệu để bắt đầu.</p>
+      </div>
+    </section>
+
+    <footer>Trang web chuyển đổi từ chương trình C/C++ thành HTML, CSS và JavaScript.</footer>
+  </main>
+</body>
+</html>
